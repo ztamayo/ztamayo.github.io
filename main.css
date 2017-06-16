@@ -1,0 +1,18 @@
+﻿.container {
+    background-color:darkred;
+    color: lightgrey;
+}
+
+.nav {
+    background-color: darkred;
+}
+
+nav li {
+    margin-top: 20px;
+    padding: 0 10px;
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+}
