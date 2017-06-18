@@ -60,6 +60,13 @@ a {
     color: lightgray;
 }
 
+/* Style main page paragraphs */
+#main {
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+    text-align: justify;
+}
+
 /* Style Projects paragraphs */
 #projects {
     margin-left: 60px !important;
@@ -121,3 +128,24 @@ footer {
     background-color: mediumblue;
     color: white;
 } 
+
+/* Hide content on Projects page */
+.more {
+    display: none;
+}
+
+a.showLink, a.hideLink {
+    text-decoration: none;
+    color: #36f;
+    padding-left: 60px;
+    color: darkblue;
+    font-size: 18px;
+}
+
+a.showLink:hover, a.hideLink:hover {
+    text-decoration: underline;
+}
+
+
+
+
