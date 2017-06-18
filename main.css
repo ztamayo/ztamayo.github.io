@@ -1,18 +1,123 @@
-﻿.container {
-    background-color:darkred;
-    color: lightgrey;
+﻿/* CSS Stylesheet for my website 
+    by: Zailyn Tamayo
+*/
+
+body {
+    background-color: lightgray;
 }
 
-.nav {
+.jumbotron {
+    background-color: lightgray;
+}
+
+.container-fluid {
     background-color: darkred;
+    color: lightgray;
 }
 
-nav li {
-    margin-top: 20px;
-    padding: 0 10px;
-    display: inline;
+h2 {
+    margin-left: 35px;
 }
 
+h3 {
+    margin-left: 50px;
+}
+
+/* Contact Form */
+form {
+    margin-left: 50px !important;
+}
+
+/* Navigation */
 nav ul {
     display: inline;
 }
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+/* Style links */
+#inline-link {
+    color: darkblue !important;
+    font-size: inherit;
+}
+
+#git-links {
+    margin-left: 60px;
+    font-size: 20px;
+    color: darkred !important;
+}
+
+#github {
+    color: darkred;
+    margin: 35px;
+    font-size: 14px;
+}
+
+a {
+    color: lightgray;
+}
+
+/* Style Projects paragraphs */
+#projects {
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Pictures */
+#mypic {
+    border: 5px solid darkred;
+    width: 200px; 
+    height: 200px;
+    margin: 30px;
+}
+
+/* Footer */
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+/* Style social media icons */
+.fa {
+    padding: 15px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+    /* Add a hover effect*/
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-lg {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Set a color for each icon */
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* GitHub */
+.fa-github {
+    background-color: gray;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background-color: mediumblue;
+    color: white;
+} 
