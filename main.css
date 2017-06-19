@@ -139,11 +139,11 @@ a.showLink:hover, a.hideLink:hover {
 @media only screen and (max-device-width: 480px)
 {
     body {
-        background-color: ghostwhite;
+        background-color: white;
     }
 
     .jumbotron {
-        background-color: ghostwhite;
+        background-color: white;
     }
 }
 
