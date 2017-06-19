@@ -136,6 +136,16 @@ a.showLink:hover, a.hideLink:hover {
     text-decoration: underline;
 }
 
+@media only screen and (max-device-width: 480px)
+{
+    body {
+        background-color: ghostwhite;
+    }
+
+    .jumbotron {
+        background-color: ghostwhite;
+    }
+}
 
 
 

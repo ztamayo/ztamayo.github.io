@@ -95,11 +95,6 @@
         <!-- Older Projects -->
         <h3><u>Completed/Archived Projects:</u></h3><br />
 
-        <a href="#" id="example-show" class="showLink"
-           onclick="showHide('example');return false;">Show more...</a>
-
-        <div id="example" class="more">
-
             <h4><a id="git-links" href="https://github.com/ztamayo/project_samples" target="_blank"><b>Example Projects</b></a></h4>
             <p id="projects">
                 This folder contains examples of projects I worked on during my graduate studies in Computer Science.
@@ -124,73 +119,78 @@
                 box will show either "accepted" or "denied" admission.
             </p>
 
-            <h4>
-                <a id="git-links" href="https://github.com/ztamayo/Drink-Dispenser-App" target="_blank">
-                    <b>Drink Dispenser Application</b>
-                </a>
-            </h4><p id="projects">
-                An application writting in C#. The user can choose from
-                soft drinks, coffee, tea or hot chocolate. If the user selects coffee or tea, she can also choose cream, sugar or honey.
-                Once "dispense" is clicked, a message box will appear stating the selection. The "clear" button clears the form and the
-                "exit" button closes the application.
-            </p>
+            <a href="#" id="example-show" class="showLink"
+               onclick="showHide('example');return false;">Show more...</a>
 
-            <h4>
-                <a id="git-links" href="https://github.com/ztamayo/Calculator-App" target="_blank">
-                    <b>Calculator Application</b>
-                </a>
-            </h4><p id="projects">
-                A C# app that I created as part of a graduate course in
-                User Interface Engineering. It is a simple calculator application.
-            </p>
+            <div id="example" class="more">
 
-            <h4>
-                <a id="git-links" href="https://github.com/ztamayo/Simple-Calculations-App" target="_blank">
-                    <b>Simple Calculations Application</b>
-                </a>
-            </h4><p id="projects">
-                A C# app that I created as part of a graduate course in
-                User Interface Engineering. It calculates the sum, difference, product and quotient of two integers. The user inputs two
-                integers and can then select the buttons "sum", "diff" (difference), "prod" (product) or "quot" (quotient). The "clear"
-                button clears the integers in the textboxes and "exit" closes the application.
-            </p>
+                <h4>
+                    <a id="git-links" href="https://github.com/ztamayo/Drink-Dispenser-App" target="_blank">
+                        <b>Drink Dispenser Application</b>
+                    </a>
+                </h4><p id="projects">
+                    An application writting in C#. The user can choose from
+                    soft drinks, coffee, tea or hot chocolate. If the user selects coffee or tea, she can also choose cream, sugar or honey.
+                    Once "dispense" is clicked, a message box will appear stating the selection. The "clear" button clears the form and the
+                    "exit" button closes the application.
+                </p>
 
-            <h4><a id="git-links" href="https://github.com/ztamayo/C_samples" target="_blank"><b>C++ Codes</b></a></h4>
-            <p id="projects">
-                Simple C++ codes from when I was taking courses toward my Certificate in Computer Programming.
-                I tried to make the file titles descriptive of the what the code does.  Within the comments of every code is a
-                more detailed descrition.
-            </p>
+                <h4>
+                    <a id="git-links" href="https://github.com/ztamayo/Calculator-App" target="_blank">
+                        <b>Calculator Application</b>
+                    </a>
+                </h4><p id="projects">
+                    A C# app that I created as part of a graduate course in
+                    User Interface Engineering. It is a simple calculator application.
+                </p>
 
-            <h4><a id="git-links" href="https://github.com/ztamayo/rails_project" target="_blank"><b>Ruby on Rails Project</b></a></h4>
-            <p id="projects">
-                This project is incomplete and I'm not sure what to do with it.  I'm not even sure what it is.
-                It began with uploading a RoR project from grudate school to GitHub and from there I started watching RoR lectures and
-                using C9 and committing that work to the GitHub repo. It could contain three different projects at this point and I may
-                delete the repo.
-            </p>
-            
-            
+                <h4>
+                    <a id="git-links" href="https://github.com/ztamayo/Simple-Calculations-App" target="_blank">
+                        <b>Simple Calculations Application</b>
+                    </a>
+                </h4><p id="projects">
+                    A C# app that I created as part of a graduate course in
+                    User Interface Engineering. It calculates the sum, difference, product and quotient of two integers. The user inputs two
+                    integers and can then select the buttons "sum", "diff" (difference), "prod" (product) or "quot" (quotient). The "clear"
+                    button clears the integers in the textboxes and "exit" closes the application.
+                </p>
+
+                <h4><a id="git-links" href="https://github.com/ztamayo/C_samples" target="_blank"><b>C++ Codes</b></a></h4>
+                <p id="projects">
+                    Simple C++ codes from when I was taking courses toward my Certificate in Computer Programming.
+                    I tried to make the file titles descriptive of the what the code does.  Within the comments of every code is a
+                    more detailed descrition.
+                </p>
+
+                <h4><a id="git-links" href="https://github.com/ztamayo/rails_project" target="_blank"><b>Ruby on Rails Project</b></a></h4>
+                <p id="projects">
+                    This project is incomplete and I'm not sure what to do with it.  I'm not even sure what it is.
+                    It began with uploading a RoR project from grudate school to GitHub and from there I started watching RoR lectures and
+                    using C9 and committing that work to the GitHub repo. It could contain three different projects at this point and I may
+                    delete the repo.
+                </p>
+
+
                 <a href="#" id="example-hide" class="hideLink"
                    onclick="showHide('example');return false;">...Hide this content</a>
-       
 
-        <script language="JavaScript">
-            function showHide(shID) {
-                if (document.getElementById(shID)) {
-                    if (document.getElementById(shID + '-show').style.display != 'none') {
-                        document.getElementById(shID + '-show').style.display = 'none';
-                        document.getElementById(shID).style.display = 'block';
-                    }
-                    else {
-                        document.getElementById(shID + '-show').style.display = 'inline';
-                        document.getElementById(shID).style.display = 'none';
-                    }
-                }
-    }
-    </script>
 
-        </div >
+                <script language="JavaScript">
+                    function showHide(shID) {
+                        if (document.getElementById(shID)) {
+                            if (document.getElementById(shID + '-show').style.display != 'none') {
+                                document.getElementById(shID + '-show').style.display = 'none';
+                                document.getElementById(shID).style.display = 'block';
+                            }
+                            else {
+                                document.getElementById(shID + '-show').style.display = 'inline';
+                                document.getElementById(shID).style.display = 'none';
+                            }
+                        }
+                    }
+                </script>
+
+            </div>
             </div>
         </div>
 
