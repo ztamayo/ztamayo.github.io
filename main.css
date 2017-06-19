@@ -62,8 +62,6 @@ a {
 
 /* Style main page paragraphs */
 #main {
-    margin-left: 150px !important;
-    margin-right: 150px !important;
     text-align: justify;
 }
 
