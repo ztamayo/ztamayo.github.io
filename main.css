@@ -16,16 +16,12 @@ body {
 }
 
 h2 {
-    margin-left: 35px;
-}
-
-h3 {
-    margin-left: 50px;
+    margin-left: 35px !important;
 }
 
 /* Contact Form */
 form {
-    margin-left: 50px !important;
+    margin-left: 35px !important;
 }
 
 /* Navigation */
@@ -45,7 +41,6 @@ nav li {
 }
 
 #git-links {
-    margin-left: 60px;
     font-size: 20px;
     color: darkred !important;
 }
@@ -67,8 +62,6 @@ a {
 
 /* Style Projects paragraphs */
 #projects {
-    margin-left: 60px !important;
-    margin-right: 60px !important;
     font-size: 18px;
     text-align: justify;
 }
@@ -85,7 +78,7 @@ a {
 footer {
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: 12px;
+    font-size: 12px !important;
 }
 
 /* Style social media icons */
@@ -135,7 +128,6 @@ footer {
 a.showLink, a.hideLink {
     text-decoration: none;
     color: #36f;
-    padding-left: 60px;
     color: darkblue;
     font-size: 18px;
 }
