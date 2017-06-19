@@ -35,6 +35,10 @@ nav li {
     padding: 10px;
 }
 
+.navbar-collapse {
+    background-color: black;
+}
+
 /* Style links */
 #inline-link {
     color: darkblue !important;
