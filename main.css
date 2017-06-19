@@ -142,14 +142,20 @@ a.showLink:hover, a.hideLink:hover {
 {
     body {
         background-color: ghostwhite;
-        font-family: sans-serif !important;
-        font-weight: 900 !important;
     }
 
     .jumbotron {
         background-color: ghostwhite;
+    }
+
+    #main {
         font-family: sans-serif !important;
-        font-weight: 900 !important;
+        font-weight: bold !important;
+    }
+
+    #projects {
+        font-family: sans-serif !important;
+        font-weight: 800 !important;
     }
 }
 
