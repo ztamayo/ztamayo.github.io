@@ -161,6 +161,10 @@ a.showLink:hover, a.hideLink:hover {
         font-family: sans-serif !important;
         font-weight: bold !important;
     }
+
+    button {
+       text-align: center !important;
+    }
 }
 
 
