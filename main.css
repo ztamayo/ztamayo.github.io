@@ -26,9 +26,14 @@ form {
 }
 
 /* Navigation */
+.navbar-header {
+    vertical-align: inherit;
+}
+
 .navbar-brand {
     text-align: center;
     font-size: 30px;
+    vertical-align: inherit;
 }
 
 .icon-bar {
