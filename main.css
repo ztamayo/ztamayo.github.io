@@ -26,14 +26,9 @@ form {
 }
 
 /* Navigation */
-.navbar-header {
-    vertical-align: baseline !important;
-}
-
 .navbar-brand {
     text-align: center;
     font-size: 30px;
-    vertical-align: baseline !important;
 }
 
 .icon-bar {
@@ -66,7 +61,7 @@ a {
 
 /* Style main page paragraphs */
 #main {
-    text-align: justify;
+
 }
 
 /* Style Projects paragraphs */
@@ -165,6 +160,7 @@ a.showLink:hover, a.hideLink:hover {
         font-family: sans-serif !important;
         font-weight: bold !important;
     }
+
 }
 
 
