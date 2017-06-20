@@ -26,10 +26,6 @@ form {
 }
 
 /* Navigation */
-#social-media-bar {
-    display: inline-block !important;
-}
-
 .navbar-header {
     vertical-align: baseline !important;
 }
@@ -62,13 +58,6 @@ nav li {
 #git-links {
     font-size: 20px;
     color: darkred !important;
-}
-
-#github {
-    color: darkred;
-    margin: 35px;
-    font-size: 14px;
-    font-weight: bold;
 }
 
 a {
