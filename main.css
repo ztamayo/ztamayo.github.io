@@ -20,12 +20,30 @@ h2 {
     margin-left: 35px !important;
 }
 
-/* Contact Form */
+/* Contact Form - NOT USED */
 form {
     margin-left: 35px !important;
 }
 
 /* Navigation */
+#social-media-bar {
+    display: inline-block !important;
+}
+
+.navbar-header {
+    vertical-align: baseline !important;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: 30px;
+    vertical-align: baseline !important;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
 nav ul {
     display: inline;
 }
@@ -35,12 +53,8 @@ nav li {
     padding: 10px;
 }
 
-.icon-bar {
-    background-color: black;
-}
-
 /* Style links */
-#inline-link {
+    #inline-link {
     color: darkblue !important;
     font-size: inherit;
 }
@@ -142,6 +156,7 @@ a.showLink:hover, a.hideLink:hover {
     text-decoration: underline;
 }
 
+/* Style for mobile-only */
 @media only screen and (max-device-width: 480px)
 {
     body {
