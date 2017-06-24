@@ -26,18 +26,23 @@ form {
 }
 
 /* Navigation */
-.navbar-header {
-    vertical-align: inherit;
-}
-
 .navbar-brand {
     text-align: center;
     font-size: 30px;
-    vertical-align: inherit;
+    padding-top: 25px;
 }
 
 .icon-bar {
     background-color: black;
+}
+
+#socmed {
+    display: inline-block !important;
+    float: left !important;
+}
+
+.navbar-collapse {
+    float: right;
 }
 
 nav ul {
@@ -99,8 +104,8 @@ footer {
 
 .fa-lg {
     padding: 5px !important;
-    margin-left: 5px !important;
-    margin-right: 5px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
 }
 
 /* Set a color for each icon */
