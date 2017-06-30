@@ -123,13 +123,13 @@ footer {
 
 /* GitHub */
 .fa-github {
-    background: #000000;
+    background-color: darkgray;
     color: white;
 }
 
 /* LinkedIn */
 .fa-linkedin {
-    background: #007BB5;
+    background-color: darkblue;
     color: white;
 } 
 
