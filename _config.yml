@@ -1,13 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+name: Zailyn's Website
+description: My Website
+url: http://zailyn-tamayo.com
 
-# Site settings
+exclude:
+  - deprecated
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
 
-# Build settings
+safe: true
+
+highlighter: rouge
+
 markdown: kramdown
 
-theme: jekyll-theme-hacker
+gems:
+  - jekyll-redirect-from
+
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
